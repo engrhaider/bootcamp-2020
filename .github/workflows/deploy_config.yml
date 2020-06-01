@@ -32,5 +32,5 @@ jobs:
       run: npm install -g surge
     # deploy to surge
     - name: deploy the code to surge
-      run: surge ./ bootcamp2020-haider-test.surge.sh --token ${{secret.SURGE_TOKEN}}
+      run: surge ./ bootcamp2020-haider-test.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
